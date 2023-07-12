@@ -1,1 +1,55 @@
-/*Style Sheet*/
+header{
+    margin: 20px;
+}
+body{
+    margin: 0px;
+    background-color: #DEE2E6;
+}
+main{
+    margin: 20px;
+}
+h1{
+    text-align: left;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(210, 11%, 15%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: #F8F9FA;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(210, 11%, 5%);
+}
+.navbar li{
+    float: left;
+}
+.boxr{
+    width: 30%;
+    padding: 15px;
+    float: right;
+}
+.boxl{ /*do something using combinator*/
+    width: 30%;
+    padding: 15px;
+    float: left;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: #ADB5BD;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width:600px) {
+    div{
+        width: 100%
+    }
+}
