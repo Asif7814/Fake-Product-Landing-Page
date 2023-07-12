@@ -1,9 +1,13 @@
 header{
     margin: 20px;
+    text-shadow: 3px 4px 15px;
+}
+header h1{
+    text-align: center;
 }
 body{
     margin: 0px;
-    background-color: #DEE2E6;
+    background-color: hsl(210, 14%, 89%);
 }
 main{
     margin: 20px;
@@ -17,9 +21,11 @@ h1{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+
+    box-shadow: 2px 2px 4px;
 }
 .navbar a{
-    color: #F8F9FA;
+    color: hsl(210, 17%, 98%);
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -44,7 +50,7 @@ h1{
 footer{
     display: block;
     clear: both;
-    background-color: #ADB5BD;
+    background-color: hsl(210, 11%, 71%);
     text-align: center;
     padding: 20px;
 }
