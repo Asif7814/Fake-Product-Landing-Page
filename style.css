@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 header{
     margin: 20px;
     text-shadow: 3px 4px 15px;
@@ -37,20 +40,39 @@ h1{
 .navbar li{
     float: left;
 }
+.eyecatcher{
+    display: block;
+}
+.eyecatcher img{
+    width: 60%;
+    padding: 15px; 
+    float: left;  
+}
 .boxr{
-    width: 30%;
+    width: 40%;
     padding: 15px;
+    background-color: hsl(210, 14%, 83%);
     float: right;
+    display: inline;
 }
 .boxl{ /*do something using combinator*/
-    width: 30%;
+    width: 40%;
     padding: 15px;
+    float: left;
+}
+.about{
+    display: block;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(210, 9%, 31%);
     float: left;
 }
 footer{
     display: block;
     clear: both;
-    background-color: hsl(210, 11%, 71%);
+    background-color: hsl(208, 7%, 46%);
     text-align: center;
     padding: 20px;
 }
