@@ -1,3 +1,8 @@
+/*Notes for CSS: 
+  - use flexboxes to format content
+  - 
+*/
+
 *{
     box-sizing: border-box;
 }
@@ -40,34 +45,30 @@ h1{
 .navbar li{
     float: left;
 }
-.eyecatcher{
-    display: block;
+.hero{
+    display: flex;  
 }
-.eyecatcher img{
+.hero img{
     width: 60%;
-    padding: 15px; 
-    float: left;  
+    padding: 15px;  
 }
 .boxr{
     width: 40%;
     padding: 15px;
     background-color: hsl(210, 14%, 83%);
-    float: right;
-    display: inline;
 }
 .boxl{ /*do something using combinator*/
     width: 40%;
     padding: 15px;
-    float: left;
 }
 .about{
-    display: block;
+    display: flex;
 }
 .box{
     width: 200px;
     height: 200px;
     background-color: hsl(210, 9%, 31%);
-    float: left;
+    display: flex;
 }
 footer{
     display: block;
